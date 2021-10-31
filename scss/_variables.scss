@@ -1,0 +1,22 @@
+// colors ----------
+$title: #4e5150;
+$address: #a9a9a9;
+$sub-title: #bdbdbd;
+$box-bg: #e5e5e5;
+$footer: #b9bdcf;
+
+// google font
+$montserrat: "Montserrat", sans-serif;
+
+// media query
+@mixin laptop {
+  @media (min-width: 960.98px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: 768.98px) {
+    @content;
+  }
+}
